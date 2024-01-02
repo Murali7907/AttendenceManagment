@@ -1,0 +1,50 @@
+
+Attendance Management System Documentation
+-------------------------------------------
+
+
+Introduction
+-------------
+
+The Attendance Management System is a web application designed to simplify the process of recording and managing student attendance. This documentation provides an overview of the system's features, usage instructions, and file structure.
+
+Features
+---------
+
+1. Mark Attendance
+-------------------
+
+Mark attendance by providing student details.
+Include student name, ID, class, section, and attendance status (Present, Absent, or Half Day).
+2. View Attendance Records
+--------------------------
+
+Access a user-friendly interface to view detailed attendance records.
+Displayed information includes student name, ID, class, section, attendance limit, and status.
+3. Clear Records
+----------------
+
+Administrators can clear all attendance records.
+A backup of the records can be created before clearing.
+4. Recover Records
+------------------
+
+Restore attendance records from a previously created backup.
+
+Usage Instructions
+------------------
+Open index.html in a web browser to access the Attendance Management System.
+Provide student details and mark attendance.
+Navigate to the "Attendance Records" tab to view recorded attendance.
+Use the "Clear Records" button to remove all attendance records.
+
+Files and Structure
+-------------------
+
+index.html: Main HTML file for attendance marking.
+records.html: HTML file for viewing attendance records.
+index.css: CSS file for styling the main interface.
+records.css: CSS file for styling the attendance records view.
+index.js: JavaScript file for handling attendance marking and navigation.
+records.js: JavaScript file for handling attendance records display and management.
+
